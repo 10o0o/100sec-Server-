@@ -1,7 +1,7 @@
 import sys
 
-def getName(name, age): 
-  print (name + " : " + age) 
+def getSum(sum, count):
+  print(int(sum) + int(count))
 
 if __name__ == '__main__': 
-  getName(sys.argv[1], sys.argv[2])
+  getSum(sys.argv[1], sys.argv[2])
